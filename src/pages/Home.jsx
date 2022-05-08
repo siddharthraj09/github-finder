@@ -1,13 +1,12 @@
 import React from "react";
+import UserResults from "../components/users/UserResults";
 
 function Home() {
   return (
-    <div>
-      <h1 className="text-6xl mb-4 text-center">
-           Welcome
-       </h1>
-       {process.env.REACT_APP_GITHUB_TOKEN}
-    </div>
+    <>
+      {/* {serch component} */}
+      <UserResults />
+    </>
   );
 }
 
